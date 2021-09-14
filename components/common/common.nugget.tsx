@@ -5,14 +5,16 @@ import { Meter } from './common.meter';
 export function Nugget({ type = 'marketplace' }) {
   return (
     <CardStyles>
-      <img src="/exotics/granddaddy-purple.webp" />
+      <img src="/exotics/2.webp" />
       <div className="text">
         <h3>Granddaddy Purple Kush</h3>
         <div className="accent" />
         
         <div className="traits">
           <div className="trait label">
+            <Trait type="indica" label="Indica"/>
             <Trait type="myrcene" label="Myrcene"/>
+            
           </div>
           
           <div className="trait marker">
@@ -30,7 +32,7 @@ export function Nugget({ type = 'marketplace' }) {
           </div>
 
           <div className="trait rarity">
-            #1 of 100,000
+            #1 of 100
           </div>
 
           {

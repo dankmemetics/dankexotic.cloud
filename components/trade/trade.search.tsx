@@ -88,6 +88,7 @@ export function TradeSearch() {
   return (
     <TradeSearchStyles>
       <input type="text" placeholder="Search for Dank Nuggets"/>
+      
       <div className="options">
 
         <div className="options-section full">
@@ -160,16 +161,9 @@ export function TradeSearch() {
 
         <div className="options-section">
           <p>THC Potency</p>
-          <RangeInput defaultValue={[5, 95]} trackStyle={[{ background: Primary }]}/>
+          <RangeInput defaultValue={[5, 95]} trackStyle={[{ background: Primary }]} style={{ margin: '0 0 30px 0' }}/>
           <p>CBD Potency</p>
           <RangeInput defaultValue={[0, 51]} trackStyle={[{ background: Primary }]} style={{ margin: '0 0 15px 0' }}/>
-        
-          <div className="mini-inputs">
-            <p>Min</p>
-            <input type="number" min={0} />
-            <p>Max</p>
-            <input type="number" min={0}/>
-          </div>
         </div>
 
       </div>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Myrcene, Limonene, Linalool } from '../brand/brand.colors';
+import { Myrcene, Caryophyllene, Linalool, Pinene, Humulene, Limonene, Indica, Sativa } from '../brand/brand.colors';
 
 export const TraitStyles = styled.div`
   display: flex;
@@ -17,11 +17,26 @@ export const TraitStyles = styled.div`
     &.myrcene {
       background: ${Myrcene};
     }
-    &.limonene {
-      background: ${Limonene};
+    &.caryophyllene {
+      background: ${Caryophyllene};
     }
     &.linalool {
       background: ${Linalool};
+    }
+    &.pinene {
+      background: ${Pinene};
+    }
+    &.humulene {
+      background: ${Humulene};
+    }
+    &.limonene {
+      background: ${Limonene};
+    }
+    &.indica {
+      background: ${Indica};
+    }
+    &.sativa {
+      background: ${Sativa};
     }
   }
 `;
