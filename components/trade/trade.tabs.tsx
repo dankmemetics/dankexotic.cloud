@@ -32,13 +32,13 @@ export function TradeTabs() {
   return (
     <TradeTabsStyles>
       <a className="tab">
-        Community
+        Marketplace
       </a>
       <a className="tab active">
         Dank Supply
       </a>
       <a className="tab">
-        Dank Dailys
+        Rare Dank
       </a>
     </TradeTabsStyles>
   )

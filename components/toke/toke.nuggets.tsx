@@ -9,6 +9,12 @@ export const TokeNuggetsStyles = styled.div`
   width: 100%;
   padding: 30px 15px;
 
+  div.accent {
+    width: 320px;
+    border-bottom: 2px solid white;
+    margin: 0 0 15px 0;
+  }
+
   div.tokezone {
     position: relative;
     width: 100%;
@@ -125,6 +131,7 @@ export function TokeNuggets() {
 
       <div className="loot-chance">
         <h3>Toke Results</h3>
+        <div className="accent"/>
 
         <div className="section">
           <div className="column">
@@ -135,8 +142,8 @@ export function TokeNuggets() {
 
             <div className="inline">
               <div className="inline-section">
-                <p>Generation</p>
-                <p className="label">#1</p>
+                <p>Rarity</p>
+                <p className="label">#1 of 100</p>
               </div>
               <div className="inline-section">
                 <p>Estimated Value</p>

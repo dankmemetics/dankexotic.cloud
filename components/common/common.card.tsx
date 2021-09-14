@@ -79,6 +79,14 @@ export const CardStyles = styled.div`
         }
       }
 
+      &.rarity {
+        justify-content: center;
+        padding: 10px 0;
+
+        font-size: 16px;
+        font-weight: bold;
+      }
+
       &.potency {
         flex-direction: column;
         align-items: flex-start;

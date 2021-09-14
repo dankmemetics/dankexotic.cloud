@@ -13,13 +13,7 @@ export function Nugget({ type = 'marketplace' }) {
         
         <div className="traits">
           <div className="trait label">
-            <Trait type="myrcene" label="Myrcene (Blueberry)"/>
-          </div>
-          
-
-          <div className="trait label">
-            Generation
-            <b>#0</b>
+            <Trait type="myrcene" label="Myrcene"/>
           </div>
           
           <div className="trait marker">
@@ -34,6 +28,10 @@ export function Nugget({ type = 'marketplace' }) {
             <div className="meter-wrap">
               <Meter width={2} height={15}/>
             </div>
+          </div>
+
+          <div className="trait rarity">
+            #1 of 100,000
           </div>
 
           {
