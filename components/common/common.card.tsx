@@ -123,10 +123,18 @@ export const CardStyles = styled.div`
         }
       }
 
+      img {
+        width: auto;
+        margin: 0 10px 0 0;
+        border-radius: 0px;
+        height: 18px;
+      }
+
       p {
         display: flex;
         align-items: center;
         padding: 0 15px;
+        font-weight: bold;
       }
 
       a.button {

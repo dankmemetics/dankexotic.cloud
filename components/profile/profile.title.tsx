@@ -19,9 +19,16 @@ export const ProfileTitleStyles = styled.div`
   }
 
   h4 {
+    display: flex;
+    align-items: center;
     font-size: 24px;
     font-weight: 300;
     padding: 15px 0 30px 0;
+
+    img {
+      height: 32px;
+      margin: 0 15px;
+    }
   }
 
   div.accent {
@@ -106,9 +113,8 @@ export function ProfileTitle() {
       </h3>
       <h4>
         Estimated Profile Value
-        ~
-        <FaEthereum />
-        420,420.0000
+        <img src="/images/solana.svg"/>
+        420,420.00
       </h4>
 
       <div className="accent"/>

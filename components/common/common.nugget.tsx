@@ -1,4 +1,3 @@
-import { FaEthereum } from 'react-icons/fa';
 import { CardStyles } from './common.card';
 import { Trait } from './common.trait';
 import { Meter } from './common.meter';
@@ -38,8 +37,8 @@ export function Nugget({ type = 'marketplace' }) {
             type === 'marketplace' ?
             <div className="purchase">
                 <p className="price">
+                  <img src="/images/solana.svg"/>
                   0.01
-                  <FaEthereum/>
                 </p>
                 
                 <a className="button">

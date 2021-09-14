@@ -79,11 +79,18 @@ export const TokeNuggetsStyles = styled.div`
       font-size: 14px;
       font-weight: bold;
       padding: 15px 0;
+      
+      img {
+        height: 24px;
+        margin: 0 15px 0 0;
+      }
 
       &.label {
+        display: flex;
+        align-items: center;
         padding: 0;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: bold;
       }
     }
 
@@ -137,7 +144,7 @@ export function TokeNuggets() {
           <div className="column">
             <p>Terpenes</p>
             <div className="traits">
-              <Trait type="myrcene" label="Myrcene (Blueberry)" />
+              <Trait type="myrcene" label="Myrcene" />
             </div>
 
             <div className="inline">
@@ -147,7 +154,10 @@ export function TokeNuggets() {
               </div>
               <div className="inline-section">
                 <p>Estimated Value</p>
-                <p className="label">~ 1 ETH</p>
+                <p className="label">
+                  <img src="/images/solana.svg"/>
+                  1
+                </p>
               </div>
             </div>  
           </div>
