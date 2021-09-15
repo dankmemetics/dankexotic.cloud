@@ -5,7 +5,7 @@ import { Meter } from './common.meter';
 export function Nugget({ type = 'marketplace' }) {
   return (
     <CardStyles>
-      <img src="/exotics/2.webp" />
+      <img src="/exotics/2.jpg" />
       <div className="text">
         <h3>Granddaddy Purple Kush</h3>
         <div className="accent" />
